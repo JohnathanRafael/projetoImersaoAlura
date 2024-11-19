@@ -1,12 +1,13 @@
 # Projeto imersão Alura
 
-Projeto desenvolvido durante a imersão back end da Alura - Consiste em um servidor utilizando express no NodeJS
+Projeto desenvolvido durante a imersão back end da Alura - Consiste em um servidor utilizando express no NodeJS.
 
 ## NodeJS
 
-O Node.js é um ambiente de execução do código JavaScript do lado servidor (server side), que na prática se reflete na possibilidade de criar aplicações standalone (autossuficientes) em uma máquina servidora, sem a necessidade do navegador
+O Node.js é um ambiente de execução do código JavaScript do lado servidor (server side), que na prática se reflete na possibilidade de criar aplicações standalone (autossuficientes) em uma máquina servidora, sem a necessidade do navegador.
 
-* Materiais de apoio:
+## Materiais de apoio:
+* Aula 1
     - [API](https://www.alura.com.br/artigos/api)
     - [Estrutura de uma URL](https://www.alura.com.br/artigos/estrutura-url)
     - [Guia sobre Http]( https://www.alura.com.br/artigos/http)
@@ -15,9 +16,20 @@ O Node.js é um ambiente de execução do código JavaScript do lado servidor (s
     - [Códigos de status de respostas HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
     - [Métodos de requisição HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
     - [Para saber mais sobre NodeJS](https://www.alura.com.br/artigos/node-js?srsltid=AfmBOoqMnhghsa5Hm41BEPzIo-EfHo4ZPz5XdE7FSQEYtjwVPe2u5YT2)
+* Aula 2 
+    - [HTTP Cat](https://http.cat/)
+    - [MongoDB](https://cloud.mongodb.com/)
+    - [Guia HTTP](https://www.alura.com.br/artigos/http)
+    - [O que é Json](https://www.alura.com.br/artigos/o-que-e-json)
+    - [JSON e Objeto JavaScript](https://www.alura.com.br/artigos/json-e-objeto-javascript-sao-a-mesma-coisa)
 
-## Iniciar um novo projeto em NodeJS
+## Comandos 
 
 `npm init es6 -y`
 
+Iniciar um novo projeto com NodeJS. <br>
 O es6 pode ser atualizado pois serve para informar que é a versão mais nova do JavaScript.
+
+`node --watch index.js`
+
+Faz com que todas as vezes em que for alterado o arquivo, não seja necessário reiniciar manualmente o servidor.
