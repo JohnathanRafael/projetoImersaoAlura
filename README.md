@@ -6,6 +6,10 @@ Projeto desenvolvido durante a imersão back end da Alura - Consiste em um servi
 
 O Node.js é um ambiente de execução do código JavaScript do lado servidor (server side), que na prática se reflete na possibilidade de criar aplicações standalone (autossuficientes) em uma máquina servidora, sem a necessidade do navegador.
 
+## MongoDB
+
+O MongoDB é um banco de dados não relacional. Isso significa que, ao contrário dos bancos de dados relacionais (como MySQL ou PostgreSQL) que estruturam os dados em tabelas com linhas e colunas rigidamente definidas, o MongoDB utiliza uma abordagem mais flexível. Ele é conhecido como "orientado a documentos".
+
 ## Materiais de apoio:
 * Aula 1
     - [API](https://www.alura.com.br/artigos/api)
@@ -22,6 +26,10 @@ O Node.js é um ambiente de execução do código JavaScript do lado servidor (s
     - [Guia HTTP](https://www.alura.com.br/artigos/http)
     - [O que é Json](https://www.alura.com.br/artigos/o-que-e-json)
     - [JSON e Objeto JavaScript](https://www.alura.com.br/artigos/json-e-objeto-javascript-sao-a-mesma-coisa)
+* Aula 3
+    - [Cloud](https://www.alura.com.br/artigos/cloud)
+    - [Async/await](https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar)
+    - [MongoDB](https://www.alura.com.br/artigos/mongodb-o-banco-baseado-em-documentos)
 
 ## Comandos 
 
