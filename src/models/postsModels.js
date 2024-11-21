@@ -24,4 +24,10 @@ export async function buscarPostPorID(id){
     return colecao.findOne({ _id: objectId }); 
 };
 
+// função para salvar um post
+export async function criarPost(novoPost) {
+    const colecao = getColecao(dataBaseNome, postColecao);
+    return colecao.insertOne(novoPost);
+};
+
 
