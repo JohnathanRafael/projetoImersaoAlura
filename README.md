@@ -49,7 +49,11 @@ HTTP (HyperText Transfer Protocol, ou Protocolo de Transferência de Hipertexto,
 * Aula 4
     - [Regras denegócio](https://www.alura.com.br/artigos/o-que-sao-regras-de-negocio)
     - [Documentação do MongoDB](https://www.mongodb.com/pt-br/docs/drivers/node/current/usage-examples/insert-operations/)
-
+* Aula 5
+    - [CORS](https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing)
+    - [Git e Github](https://www.alura.com.br/artigos/o-que-e-git-github)
+    - [Como escrever um bom README](https://www.alura.com.br/artigos/escrever-bom-readme)
+    
 ## Comandos 
 
 `npm run dev` 

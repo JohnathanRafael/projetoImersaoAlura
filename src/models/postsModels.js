@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import conectarAoBanco from "../config/dbConfig.js";
 import { ObjectId } from "mongodb";
 
@@ -30,4 +31,11 @@ export async function criarPost(novoPost) {
     return colecao.insertOne(novoPost);
 };
 
+//função para editar um post
+export async function editarPost(id, novoPost) {
+    const colecao = getColecao(dataBaseNome, postColecao);
+    const objectId = new ObjectId(id);
+
+    return colecao.updateOne({_id: objectId}, {$set: novoPost});
+};
 
