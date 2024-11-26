@@ -1,6 +1,6 @@
 import express from "express";
 import multer from "multer";
-import { listarPosts, getPostPorID, postarNovoPost, uploadImagem, editarNovoPost} from "../controller/postsController.js";
+import { listarPosts, getPostPorID, postarNovoPost, uploadImagem, editarNovoPost, deletarPost} from "../controller/postsController.js";
 import cors from "cors"
 
 const corsOptions = {
@@ -38,6 +38,9 @@ const routes = (app) =>{
 
     //rota para editar um post
     app.put("/upload/:id", editarNovoPost);
+
+    //rota para apagar um post 
+    app.delete("/posts/:id", deletarPost);
 };
 
 

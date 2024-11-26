@@ -35,7 +35,13 @@ export async function criarPost(novoPost) {
 export async function editarPost(id, novoPost) {
     const colecao = getColecao(dataBaseNome, postColecao);
     const objectId = new ObjectId(id);
-
     return colecao.updateOne({_id: objectId}, {$set: novoPost});
 };
+
+//função para apagar um psot
+export async function apagarPost(id) {
+    const colecao = getColecao(dataBaseNome, postColecao);
+    const objectId = new ObjectId(id);
+    return colecao.deleteOne({_id: objectId});
+}
 
